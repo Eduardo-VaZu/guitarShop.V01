@@ -6,6 +6,8 @@ function Header({
   removeFromCart,
   decreaseQuantity,
   voidCart,
+  isEmpty,
+  cartTotal,
 }) {
   return (
     <>
@@ -28,6 +30,8 @@ function Header({
                 removeFromCart={removeFromCart}
                 decreaseQuantity={decreaseQuantity}
                 voidCart={voidCart}
+                isEmpty={isEmpty}
+                cartTotal={cartTotal}
               />
             </nav>
           </div>
